@@ -5,8 +5,9 @@ on:
     branches:
       - main
       - feature/cicd
+  create:
     tags:
-      - '*'
+      - "*"
 
 jobs:
   test:
