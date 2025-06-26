@@ -1,11 +1,12 @@
-name: go_final_main
+name: go-final-main
 
 on:
   push:
     branches:
       - main
+      - feature/cicd
     tags:
-      - 'v*'
+      - '*'
 
 jobs:
   test:
